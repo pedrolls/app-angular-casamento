@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+$my-primary: mat.define-palette(mat.$red-palette, 100);
+$my-accent: mat.define-palette(mat.$pink-palette, 50, 100, 200);
+
+$my-theme: mat.define-light-theme((
+ color: (
+   primary: $my-primary,
+   accent: $my-accent,
+ )
+));
+
+@include mat.all-component-themes($my-theme);
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.fonte-google{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bold;
+  font-size: 40px;
+  src: url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+}

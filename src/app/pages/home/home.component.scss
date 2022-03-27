@@ -1,0 +1,17 @@
+button{
+  display: flex;
+  margin: auto;
+}
+
+.example-card {
+  max-width: 800px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+figure { width: 100%; min-width: 320px; margin:0 auto;}
+figcaption { font: 120% sans-serif; text-align: center;}
+video {
+    width: 100%;
+    height: auto;
+}
