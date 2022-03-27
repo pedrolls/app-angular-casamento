@@ -2,4 +2,47 @@
 <mat-toolbar color="primary" class="mat-elevation-z6">
   <span style="margin: auto;" class="fonte-google"> PEDRO & HELENA</span>
 </mat-toolbar>
+<mat-toolbar color="primary" class="mat-elevation-z6">
+
+  <button mat-stroked-button color="blue" (click)="redirectHome()">
+    <mat-icon>
+      <span class="material-icons-outlined">
+        home
+      </span>
+    </mat-icon>
+    <span>Home</span>
+    </button>
+  <button mat-stroked-button color="blue" (click)="redirectSobreOsNoivos()">
+    <mat-icon>
+      <span class="material-icons-outlined">
+        people_alt
+        </span>
+    </mat-icon>
+    <span>Sobre os Noivos</span>
+  </button>
+  <button mat-stroked-button color="blue">
+    <mat-icon>
+      <span class="material-icons-outlined">
+        person
+        </span>
+    </mat-icon>
+    Padrinhos e Madrinhas
+  </button>
+  <button mat-stroked-button color="blue">
+    <mat-icon>
+      <span class="material-icons-outlined">
+        email
+        </span>
+    </mat-icon>
+    Escreva para os Noivos
+  </button>
+  <button mat-stroked-button color="blue">
+    <mat-icon>
+      <span class="material-icons-outlined">
+        email
+        </span>
+    </mat-icon>
+    Mural de Mensagens
+  </button>
+</mat-toolbar>
 <router-outlet></router-outlet>
