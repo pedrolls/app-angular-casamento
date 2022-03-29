@@ -9,19 +9,27 @@ table{
   width: 100%;
   table-layout: fixed;
 }
-h2 p{
 
-  padding-left: 15px;
-  padding-right: 60px;
+.leftTextTd{
+  padding-left: 7%;
+  padding-right: 5%;
   text-align: justify;
 }
 
-.td{
-  width: 50%;
+.rightImg{
+  width: 680px;
+  height: auto;
 }
 
-img{
-  padding-left: 45px;
-  width: 56%;
+.leftImg{
+  margin-top: 10%;
+  padding-left: 15%;
+  width: 680px;
   height: auto;
+}
+
+.rightTextTd{
+
+  padding-right: 12%;
+  text-align: justify;
 }
