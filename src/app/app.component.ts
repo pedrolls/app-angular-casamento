@@ -17,10 +17,18 @@ export class AppComponent {
   }
 
   redirectSobreOsNoivos(): void{
-    this.router.navigateByUrl('/home/sobre-os-noivos')
+    this.router.navigateByUrl('/home/sobre-os-noivos');
   }
 
   redirectPadrinhos(): void{
-    this.router.navigateByUrl('home/padrinhos-madrinhas')
+    this.router.navigateByUrl('home/padrinhos-madrinhas');
+  }
+
+  redirectEnviarMsg(): void{
+    this.router.navigateByUrl('home/enviar-mensagem');
+  }
+
+  redirectMural(): void{
+    this.router.navigateByUrl('home/mural');
   }
 }
