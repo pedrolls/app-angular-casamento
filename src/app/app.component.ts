@@ -19,4 +19,8 @@ export class AppComponent {
   redirectSobreOsNoivos(): void{
     this.router.navigateByUrl('/home/sobre-os-noivos')
   }
+
+  redirectPadrinhos(): void{
+    this.router.navigateByUrl('home/padrinhos-madrinhas')
+  }
 }
