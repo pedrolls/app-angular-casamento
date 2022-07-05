@@ -9,17 +9,24 @@
       <mat-card-content >
         <mat-divider></mat-divider>
         <form class="form">
+          <mat-label>Seu nome:</mat-label>
           <mat-form-field appearance="fill" >
-            <mat-label>Seu nome</mat-label>
             <input matInput>
           </mat-form-field>
           <br>
+          <mat-label>Mensagem: </mat-label>
           <mat-form-field appearance="fill">
-            <mat-label>Textarea</mat-label>
-            <textarea matInput></textarea>
+            <textarea style="resize: none;" matInput></textarea>
+            <button mat-stroked-button style="background-color: green;" >
+              <span class="material-icons-outlined">
+                Enviar
+                </span>
+            </button>
           </mat-form-field>
         </form>
       </mat-card-content>
+
+
 
     </mat-card>
 

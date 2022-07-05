@@ -2,22 +2,25 @@
   width: 100%;
   height: 85%;
   justify-content: center;
-  border: 1px solid black;
 }
 
 .subdiv{
   width: 600px;
   margin-top: 100px;;
-  border: 1px black solid;
   position: relative;
   margin-left: auto;
   margin-right: auto ;
 }
 
+mat-card{
+  border: 1px black ;
+  border-style: solid;
+}
+
 mat-card-header{
   font-size: 18px;
   justify-content: center;
-  padding-bottom: 10px;;
+  padding-bottom: 10px;
 }
 
 mat-card-content{
@@ -29,5 +32,19 @@ mat-card-content{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+textarea{
+  width: 120%;
+  height: 150px;
+}
+
+mat-label{
+  margin-top: 20px;
+  display: flex;
+}
+
+button{
+  margin-top: 4px;
 }
 
