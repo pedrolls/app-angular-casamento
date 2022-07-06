@@ -35,8 +35,9 @@ mat-card-content{
 }
 
 textarea{
-  width: 120%;
+  width: 220%;
   height: 150px;
+  margin-left: -100px;
 }
 
 mat-label{
@@ -46,5 +47,7 @@ mat-label{
 
 button{
   margin-top: 4px;
+  width: 115%;
+  background-color: #ffcdd2;
 }
 
